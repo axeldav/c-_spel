@@ -7,7 +7,7 @@ CC = g++
 SRC_FILES = $(wildcard $(SRC_DIR)/*.cpp)
 OBJ_NAME = play
 # Mac INCLUDE_PATHS
-INCLUDE_PATHS =	-Iinclude -I/usr/local/include	-I/usr/local/Cellar/sdl2_image/2.0.5/include/SDL2	-I/usr/local/Cellar/sdl2/2.0.18/include/SDL2	-I/Users/axeldavidsson/Downloads/f13b_slutkod/include
+INCLUDE_PATHS =	-Iinclude -I/usr/local/include	-I/usr/local/Cellar/sdl2_image/2.0.5/include/SDL2	-I/usr/local/Cellar/sdl2/2.0.18/include/SDL2	#-I/Users/axeldavidsson/Downloads/f13b_slutkod/include /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/**
 # Windows INCLUDE_PATHS
 #INCLUDE_PATHS = -Iinclude -IC:/msys64/mingw64/include
 # Mac LIBRARY_PATHS
